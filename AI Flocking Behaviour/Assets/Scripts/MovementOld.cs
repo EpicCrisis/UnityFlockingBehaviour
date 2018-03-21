@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class MovementOld : MonoBehaviour
 {
     [SerializeField] private Transform target;
 
@@ -14,6 +14,11 @@ public class Movement : MonoBehaviour
 
     void Start()
     {
+        if (mass == 0.0f)
+        {
+            mass = 100.0f;
+        }
+
         accelerationX /= mass;
         accelerationY /= mass;
     }

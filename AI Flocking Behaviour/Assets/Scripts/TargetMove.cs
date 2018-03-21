@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TargetMove : MonoBehaviour
 {
-    Vector3 mousePosition;
+    [SerializeField] private Vector3 mousePosition;
 
     void Start()
     {
