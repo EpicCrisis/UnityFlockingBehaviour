@@ -135,4 +135,9 @@ public class Movement : MonoBehaviour
 
         acceleration = (direction * magnitude) / mass;
     }
+
+    public Vector2 GetDistance()
+    {
+        return distance;
+    }
 }
