@@ -122,11 +122,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4904986089587924, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 7.59
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4904986089587924, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -3.6
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 4904986089587924, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
       propertyPath: m_LocalPosition.z
@@ -173,6 +173,14 @@ Prefab:
       propertyPath: speed
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1350657255349602, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350657255349602, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
+      propertyPath: m_TagString
+      value: ObstacleTag
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114754227146532388, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
@@ -184,6 +192,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114551647597749682, guid: d74d92aeffb6d4642aa1cd179a8289ca,
+        type: 2}
+      propertyPath: allObstacles.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4568432888711660, guid: d74d92aeffb6d4642aa1cd179a8289ca, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -226,6 +239,31 @@ Prefab:
       propertyPath: amount
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 114551647597749682, guid: d74d92aeffb6d4642aa1cd179a8289ca,
+        type: 2}
+      propertyPath: allObstacles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1352487458}
+    - target: {fileID: 114551647597749682, guid: d74d92aeffb6d4642aa1cd179a8289ca,
+        type: 2}
+      propertyPath: allObstacles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1367428180}
+    - target: {fileID: 114551647597749682, guid: d74d92aeffb6d4642aa1cd179a8289ca,
+        type: 2}
+      propertyPath: allObstacles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1974363132}
+    - target: {fileID: 114551647597749682, guid: d74d92aeffb6d4642aa1cd179a8289ca,
+        type: 2}
+      propertyPath: circleTag
+      value: CircleTag
+      objectReference: {fileID: 0}
+    - target: {fileID: 114551647597749682, guid: d74d92aeffb6d4642aa1cd179a8289ca,
+        type: 2}
+      propertyPath: obstacleTag
+      value: ObstacleTag
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d74d92aeffb6d4642aa1cd179a8289ca, type: 2}
   m_IsPrefabParent: 0
@@ -238,11 +276,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4596895498001224, guid: 0d8d8d1d2e6bd1948a857ddb58d08cda, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -6.1
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 4596895498001224, guid: 0d8d8d1d2e6bd1948a857ddb58d08cda, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 4.52
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4596895498001224, guid: 0d8d8d1d2e6bd1948a857ddb58d08cda, type: 2}
       propertyPath: m_LocalPosition.z
@@ -268,31 +306,24 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 1308438372493814, guid: 0d8d8d1d2e6bd1948a857ddb58d08cda, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114708968766562742, guid: 0d8d8d1d2e6bd1948a857ddb58d08cda, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 0d8d8d1d2e6bd1948a857ddb58d08cda, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1367428177 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1350657255349602, guid: b0cbd742c15576e4799d1cde8ea2d631,
+--- !u!4 &1352487458 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4596895498001224, guid: 0d8d8d1d2e6bd1948a857ddb58d08cda,
+    type: 2}
+  m_PrefabInternal: {fileID: 1256499420}
+--- !u!4 &1367428180 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4904986089587924, guid: b0cbd742c15576e4799d1cde8ea2d631,
     type: 2}
   m_PrefabInternal: {fileID: 998221868}
---- !u!114 &1367428178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1367428177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 127106db42b50494f98ae1cd58302c27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nearNeighbours: []
-  externalForces: []
-  repelRadius: 5
-  repelAmplification: 100
-  distance: {x: 0, y: 0}
-  externalForce: {x: 0, y: 0}
 --- !u!1 &1470361224
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,11 +419,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4904986089587924, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2.12
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4904986089587924, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.34
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4904986089587924, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
       propertyPath: m_LocalPosition.z
@@ -420,11 +451,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4904986089587924, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4904986089587924, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4904986089587924, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
       propertyPath: m_LocalScale.z
@@ -439,32 +470,23 @@ Prefab:
       propertyPath: speed
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1350657255349602, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350657255349602, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
+      propertyPath: m_TagString
+      value: ObstacleTag
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114754227146532388, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1974363129 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1350657255349602, guid: b0cbd742c15576e4799d1cde8ea2d631,
+--- !u!4 &1974363132 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4904986089587924, guid: b0cbd742c15576e4799d1cde8ea2d631,
     type: 2}
   m_PrefabInternal: {fileID: 1961553325}
---- !u!114 &1974363130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1974363129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 127106db42b50494f98ae1cd58302c27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nearNeighbours: []
-  externalForces: []
-  repelRadius: 1
-  repelAmplification: 100
-  distance: {x: 0, y: 0}
-  externalForce: {x: 0, y: 0}
 --- !u!1001 &2092460629
 Prefab:
   m_ObjectHideFlags: 0

@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
+    [SerializeField] private string circleTag;
+    [SerializeField] private string obstacleTag;
+    
     [SerializeField] private List<Transform> allNeighbours;
+    [SerializeField] private List<Transform> allObstacles;
+
     [SerializeField] private int amount = 10;
+
     [SerializeField] private GameObject circlePrefab;
     [SerializeField] private Transform target;
 
@@ -32,14 +38,33 @@ public class SpawnManager : MonoBehaviour
             randomPos.z = 0.0f;
 
             GameObject GO = Instantiate(circlePrefab, randomPos, Quaternion.identity, transform);
+            
+            allNeighbours.Add(GO.transform);
+        }
 
-            allNeighbours.Add(GO.GetComponent<Transform>());
+        //GameObject[] pCircles = GameObject.FindGameObjectsWithTag(circleTag);
+
+        //for (int i = 0; i < pCircles.Length; i++)
+        //{
+        //    allNeighbours.Add(pCircles[i].transform);
+        //}
+
+        GameObject[] pObstacles = GameObject.FindGameObjectsWithTag(obstacleTag);
+
+        for (int i = 0; i < pObstacles.Length; i++)
+        {
+            allObstacles.Add(pObstacles[i].transform);
         }
     }
 
     public List<Transform> GetAllNeighbours()
     {
         return allNeighbours;
+    }
+
+    public List<Transform> GetAllObstacles()
+    {
+        return allObstacles;
     }
 
     public Transform GetTarget()

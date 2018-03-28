@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 114754227146532388}
   m_Layer: 0
   m_Name: Circle
-  m_TagString: Untagged
+  m_TagString: CircleTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55,17 +55,24 @@ MonoBehaviour:
   target: {fileID: 0}
   acceleration: {x: 0, y: 0}
   velocity: {x: 0, y: 0}
-  direction: {x: 0, y: 0}
   mass: 500
-  magnitude: 1
-  speed: 2
+  maxSpeed: 0.1
+  fixedAcceleration: 0.1
+  minScale: 0.1
   nearNeighbours: []
   externalForces: []
-  repelRadius: 1
-  repelAmplification: 1
+  circleRepelRadius: 0.5
+  circleRepelAmplification: 5
+  obstacleRepelRadius: 0.5
+  obstacleRepelAmplification: 5
   distance: {x: 0, y: 0}
   externalForce: {x: 0, y: 0}
   isLimitSpeed: 1
+  isUseFixedAcceleration: 0
+  isUseSpecialEffect: 0
+  isIgnoreMass: 0
+  isCheckObstacle: 1
+  isCheckNeighbor: 1
 --- !u!212 &212596509542167436
 SpriteRenderer:
   m_ObjectHideFlags: 1
