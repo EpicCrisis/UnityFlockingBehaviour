@@ -181,6 +181,26 @@ Prefab:
       propertyPath: m_TagString
       value: ObstacleTag
       objectReference: {fileID: 0}
+    - target: {fileID: 212596509542167436, guid: b0cbd742c15576e4799d1cde8ea2d631,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212596509542167436, guid: b0cbd742c15576e4799d1cde8ea2d631,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 212596509542167436, guid: b0cbd742c15576e4799d1cde8ea2d631,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212596509542167436, guid: b0cbd742c15576e4799d1cde8ea2d631,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114754227146532388, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
@@ -310,8 +330,23 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 212506073089510500, guid: 0d8d8d1d2e6bd1948a857ddb58d08cda,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212506073089510500, guid: 0d8d8d1d2e6bd1948a857ddb58d08cda,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 212506073089510500, guid: 0d8d8d1d2e6bd1948a857ddb58d08cda,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 114708968766562742, guid: 0d8d8d1d2e6bd1948a857ddb58d08cda, type: 2}
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: 0d8d8d1d2e6bd1948a857ddb58d08cda, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &1352487458 stripped
@@ -478,6 +513,26 @@ Prefab:
       propertyPath: m_TagString
       value: ObstacleTag
       objectReference: {fileID: 0}
+    - target: {fileID: 212596509542167436, guid: b0cbd742c15576e4799d1cde8ea2d631,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212596509542167436, guid: b0cbd742c15576e4799d1cde8ea2d631,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 212596509542167436, guid: b0cbd742c15576e4799d1cde8ea2d631,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212596509542167436, guid: b0cbd742c15576e4799d1cde8ea2d631,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114754227146532388, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: b0cbd742c15576e4799d1cde8ea2d631, type: 2}
@@ -525,6 +580,11 @@ Prefab:
     - target: {fileID: 4561898825706176, guid: 137c51f5743853848b272a0405ed227d, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212974726177359810, guid: 137c51f5743853848b272a0405ed227d,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 137c51f5743853848b272a0405ed227d, type: 2}
